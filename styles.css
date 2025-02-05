@@ -15,5 +15,28 @@
 
 html{
     background-color: var(--Purple);
-    font-family: inherit, sans-serif;
+}
+
+header {
+    background-color: var(--Lavender);
+    color: var(--White);
+}
+
+nav a {
+    display: inline-block;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+}
+
+nav h2 {
+    visibility:hidden;
+    height:1px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 1rem;
 }

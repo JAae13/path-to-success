@@ -74,7 +74,7 @@ nav a:hover {
 main {
     min-width: 450px;
     max-width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 h2 {
@@ -102,3 +102,18 @@ p {
     font-weight: 300;
 }
 
+.Why-Us {
+    background-color: var(--Pink);
+}
+
+.First-Step {
+    background-color: var(--Pink);
+}
+
+footer {
+    background-color: var(--Lavender);
+    border-radius: 0 0 15px 15px;
+    min-width: 450px;
+    max-width: 80%;
+    margin: 0 auto;
+}

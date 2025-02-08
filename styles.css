@@ -17,53 +17,88 @@ html{
     background-color: var(--Purple);
 }
 
-
 header {
     color: var(--White);
+    background-color: var(--Lavender);
     text-align: center;
+    margin: 0 auto;
+    border-radius: 0 0 40px 40px;
+    min-width: 450px;
+    max-width: 80%;
+    
 }
 header p {
     background-color: var(--Pink);
     font-family: Inter, sans-serif;
-    margin: 0 auto;
-    max-width: 80%;
     border-radius: 0 0 30px 30px;
+    margin: 0;
 }
 
 h1 {
     font-size: 3em;
-    background-color: var(--Lavender);
-    border-radius: 0 0 30px 30px;
-    padding: 0.5rem;
-    margin:0 auto;
-    max-width: 78%;
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-family: kavoon, sans-serif;
 }
 
 nav h2 {
     visibility:hidden;
     font-size: 1.5em;
+    margin: 0;
 }
 
 nav ul{
+    top: 0px;
+    right: 0px;
+    position: fixed;
     padding: 0.5rem;
     margin: 0;
     background: var(--Yellow);
     border-radius: 0 0 15px 15px;
 	display: flex;
 	list-style-type: none;
-    justify-content: right;
-    float: right;
-    top: 0px;
 }
 
 nav a {
     padding: 0 1rem;
     text-decoration: none;
     color: var(--Dark-gray);
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--White); 
 }
 
 main {
+    min-width: 450px;
     max-width: 80%;
     margin:0 auto;
+}
+
+h2 {
+    color: var(--White);
+    font-size: 2em;
+}
+
+h3 {
+    color: var(--Yellow);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+h4 {
+    color: var(--Purple);
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    font-size: 1.15em;
+    font-weight: 300;
 }
 

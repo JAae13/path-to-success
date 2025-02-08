@@ -38,7 +38,7 @@ h1 {
     font-size: 3em;
     margin: 0;
     padding: 0 0 1rem 0;
-    font-family: kavoon, sans-serif;
+    font-family: Kavoon, arial;
 }
 
 nav h2 {
@@ -75,25 +75,29 @@ main {
     min-width: 450px;
     max-width: 80%;
     margin: 0 auto;
+    font-family: Inter, sans-serif;
 }
 
 h2 {
     color: var(--White);
     font-size: 2em;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Kavoon, arial;
 }
 
 h3 {
+    padding: 5px;
+    margin: 0 auto;
     color: var(--Yellow);
     font-size: 1.5em;
     font-weight: bold;
-    font-family: Inter, sans-serif;
 }
 
 h4 {
     color: var(--Purple);
     font-size: 1.15em;
     font-weight: bold;
-    font-family: Inter, sans-serif;
 }
 
 p {
@@ -102,16 +106,62 @@ p {
     font-weight: 300;
 }
 
-.Why-Us {
+#Our-Services {
+    display: flex;
+}
+
+#Our-Services h3 {
+    text-align: center;
+}
+
+.box {
+    background-color: var(--White);
+    border-radius: 15px;
+    width: 80%;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.box p{
+    margin: 0;
+}
+
+#Why-Us {
     background-color: var(--Pink);
 }
 
-.First-Step {
+#Pricing {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+table, th, td {
+    border: 2px solid var(--Yellow);
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0.5em 2em
+}
+
+th {
+    background-color: var(--Yellow);
+    padding: 0.5em;
+}
+
+td {
+    background-color: var(--White);
+    padding: 0.5em;
+}
+
+#First-Step {
     background-color: var(--Pink);
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
     background-color: var(--Lavender);
+    font-family: Inter, sans-serif;
     border-radius: 0 0 15px 15px;
     min-width: 450px;
     max-width: 80%;

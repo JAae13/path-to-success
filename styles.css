@@ -48,8 +48,8 @@ nav h2 {
 }
 
 nav ul{
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     position: fixed;
     padding: 0.5rem;
     margin: 0;

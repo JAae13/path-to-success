@@ -106,10 +106,6 @@ p {
     font-weight: 300;
 }
 
-#Our-Services {
-    display: flex;
-}
-
 #Our-Services h3 {
     text-align: center;
 }
@@ -130,9 +126,21 @@ p {
     background-color: var(--Pink);
 }
 
+#Why-Us li {
+    text-decoration: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+
 #Pricing {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+#Pricing h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 table, th, td {
@@ -156,7 +164,36 @@ td {
 
 #First-Step {
     background-color: var(--Pink);
-    grid-template-columns: 1fr 1fr;
+    color: var(--White);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#First-Step h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: left;
+}
+
+#First-Step p {
+    font-size: 1em;
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+button {
+    background-color: var(--White);
+    color: var(--Dark-gray);
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    height: 30%;
+    padding: 0.5em 1em;
+    margin: 2em;
 }
 
 footer {

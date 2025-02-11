@@ -17,6 +17,10 @@ html{
     background-color: var(--Purple);
 }
 
+body {
+    margin: 0;
+}
+
 header {
     color: var(--White);
     background-color: var(--Lavender);
@@ -25,13 +29,12 @@ header {
     border-radius: 0 0 40px 40px;
     min-width: 450px;
     max-width: 80%;
-    
 }
 header p {
     background-color: var(--Pink);
-    font-family: Inter, sans-serif;
+    font-size: 1em;
     border-radius: 0 0 30px 30px;
-    margin: 0;
+    margin: 1em auto;
 }
 
 h1 {
@@ -106,8 +109,8 @@ p {
     font-weight: 300;
 }
 
-#Our-Services h3 {
-    text-align: center;
+#Our-Services {
+    display: flex;
 }
 
 .box {
@@ -126,10 +129,15 @@ p {
     background-color: var(--Pink);
 }
 
+#Why-Us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+}
+
 #Why-Us li {
-    text-decoration: none;
-    display: flex;
-    flex-wrap:wrap;
+    padding: 3em;
 }
 
 #Pricing {
@@ -167,12 +175,6 @@ td {
     color: var(--White);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-#First-Step h2 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    text-align: left;
 }
 
 #First-Step p {

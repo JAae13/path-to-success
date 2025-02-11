@@ -173,6 +173,7 @@ p {
     flex-wrap: wrap;
     padding: 0.2em;
     margin: 0 auto;
+    text-align: center;
 }
 
 #Why-Us li {
@@ -180,7 +181,6 @@ p {
     margin: 0.5rem;
     padding: 2em;
     border-radius: 15px;
-    background-color: red;
     list-style-type: none;
     font-weight: bold;
 }
@@ -188,6 +188,24 @@ p {
 #Pricing h2 {
     margin: 0.5em auto;
 }
+
+.PA {
+    background-color: var(--Teal);
+}
+
+.PR {
+    background-color: var(--Lavender);
+}
+
+.SE {
+    background-color: var(--Yellow);
+}
+
+.FO {
+    background-color: var(--White);
+}
+
+[title] 
 
 table, th, td {
     border: 2px solid var(--Yellow);
@@ -237,6 +255,11 @@ button {
     box-shadow: 3px 3px 3px black;
     width: 60%;
     padding: 1em 2em;
+}
+
+button:hover {
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 3px black;
 }
 
 footer {

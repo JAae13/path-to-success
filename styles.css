@@ -27,8 +27,7 @@ header {
     text-align: center;
     margin: 0 auto;
     border-radius: 0 0 40px 40px;
-    min-width: 450px;
-    max-width: 80%;
+    width: 450px;
 }
 header p {
     background-color: var(--Pink);
@@ -58,7 +57,6 @@ nav ul{
     margin: 0;
     background: var(--Yellow);
     border-radius: 0 0 15px 15px;
-	display: flex;
 	list-style-type: none;
 }
 
@@ -75,8 +73,7 @@ nav a:hover {
 }
 
 main {
-    min-width: 450px;
-    max-width: 80%;
+    width: 450px;
     margin: 0 auto;
     font-family: Inter, sans-serif;
 }
@@ -84,14 +81,12 @@ main {
 h2 {
     color: var(--White);
     font-size: 2em;
-    padding: 10px;
     margin: 0 auto;
     font-family: Kavoon, arial;
 }
 
 h3 {
-    padding: 5px;
-    margin: 0 auto;
+    margin: 0.5em auto;
     color: var(--Yellow);
     font-size: 1.5em;
     font-weight: bold;
@@ -101,6 +96,7 @@ h4 {
     color: var(--Purple);
     font-size: 1.15em;
     font-weight: bold;
+    margin: 0.5em auto;
 }
 
 p {
@@ -109,16 +105,11 @@ p {
     font-weight: 300;
 }
 
-#Our-Services {
-    display: flex;
-}
-
 .box {
     background-color: var(--White);
     border-radius: 15px;
-    width: 80%;
     padding: 1em;
-    margin: 1em auto;
+    margin: 0 auto 1em auto;
 }
 
 .box p{
@@ -129,26 +120,29 @@ p {
     background-color: var(--Pink);
 }
 
+#Why-Us h2 {
+    padding: 0.5em;
+}
+
 #Why-Us ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style: none;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2em;
+    margin: 0 auto;
 }
 
 #Why-Us li {
-    padding: 3em;
-}
-
-#Pricing {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-wrap: wrap;
+    flex: 2;
+    margin: 0.5rem;
+    padding: 2em;
+    border-radius: 15px;
+    background-color: red;
+    list-style-type: none;
+    font-weight: bold;
 }
 
 #Pricing h2 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    margin: 0.5em auto;
 }
 
 table, th, td {
@@ -157,7 +151,9 @@ table, th, td {
 }
 
 table {
-    margin: 0.5em 2em
+    margin: 0.5em auto;
+    width: 300px;
+
 }
 
 th {
@@ -173,36 +169,39 @@ td {
 #First-Step {
     background-color: var(--Pink);
     color: var(--White);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
 }
 
 #First-Step p {
     font-size: 1em;
-    padding: 1em;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    margin: 1em auto;
 }
-
 
 button {
     background-color: var(--White);
     color: var(--Dark-gray);
-    font-family: Inter, sans-serif;
+    cursor: pointer;
     font-weight: bold;
     border: none;
     border-radius: 15px;
     box-shadow: 3px 3px 3px black;
-    height: 30%;
-    padding: 0.5em 1em;
-    margin: 2em;
+    width: 60%;
+    padding: 1em 2em;
 }
 
 footer {
     background-color: var(--Lavender);
+    color: var(--White);
     font-family: Inter, sans-serif;
     border-radius: 0 0 15px 15px;
-    min-width: 450px;
-    max-width: 80%;
+    text-align: center;
+    width: 450px;
+    padding: 2em 0;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer a {
+    color: var(--White);
 }

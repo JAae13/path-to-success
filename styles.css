@@ -214,11 +214,17 @@ td {
     background-color: var(--Pink);
     color: var(--White);
     padding: 1em;
+    text-align: center;
 }
 
 #First-Step p {
     font-size: 1em;
     margin: 1em auto;
+    text-align: left;
+}
+
+#First-Step h2 {
+    text-align: left;
 }
 
 button {
